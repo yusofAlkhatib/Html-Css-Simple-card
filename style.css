@@ -1,0 +1,37 @@
+
+.card{
+ width: 20%;
+ border: 1px solid black;
+ padding: 30px 15px;
+ margin: 100px auto;
+ border-radius: 10px;
+}
+.card h2{
+    font-weight: 700;
+}
+.card p{
+    font-size: 20px;
+}
+.card a{
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 10px 0;
+}
+.card img{
+    width: 100%;
+}
+.card a:hover{
+    background-color: black;
+    color: white;
+
+}
+.card:hover{
+    -webkit-box-shadow: 3px 22px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 22px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 22px 16px 0px rgba(0,0,0,0.75);
+
+}
